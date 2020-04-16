@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset="UTF-8">
+    <title>Canvas Template</title>
+    <link rel="stylesheet" href="styles.css" type="text/css"></link>
+</head>
+<body>
+    <nav id="alert"></nav>
+    <div class="container" id="addNew">
+        <form>
+            <h2>Add New</h2>
+            <label for="first">First Name</label>
+            <input type="text" id="newFirstName"></input>
+            <label for="last">Last Name</label>
+            <input type="text" id="newLastName"></input>
+            <label for="dob">Birthday</label>
+            <input type="date" id="newBirthday"></input>
+            <input class="button" type="button" onclick="newEntry()" value="Add New"></input>
+        </form>
+    </div>
+    <div class="container">
+        <form>
+            <h2>Search</h2>
+            <label for="first">First Name</label>
+            <input type="text" id="searchFirstName"></input>
+            <label for="last">Last Name</label>
+            <input type="text" id="searchLastName"></input>
+            <input class="button" type="button" onclick="search()" value="Search"></input>
+        </form>
+    </div>
+    <div class="container">
+        <div id="results">
+            <h2>Results</h2>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
