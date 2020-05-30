@@ -179,7 +179,8 @@ const family = [
   new Person('paula', 'wright', 7, 29, 1985),
   new Person('john', 'kevin', 5, 17, 1989),
   new Person('tim', 'garcia', 12, 5, 1988),
-  new Person('charles', 'mccormick', 11, 5, 1988)
+  new Person('charles', 'mccormick', 11, 5, 1988),
+  new Person('sammy mccormick', 12, 14, 1989)
 ]
 
 let pendingBday = () => {
