@@ -177,7 +177,8 @@ const family = [
   new Person('shirley', 'prater', 11, 16, 1935),
   new Person('jon', 'larochelle', 7, 1, 1987),
   new Person('paula', 'wright', 7, 29, 1985),
-  new Person('john', 'kevin', 5, 17, 1989),
+  new Person('john', 'dearden', 5, 17, 1989),
+  new Person('kelsey', 'dearden', 1, 5, 1993),
   new Person('tim', 'garcia', 12, 5, 1988),
   new Person('charles', 'mccormick', 11, 5, 1988),
   new Person('sammy mccormick', 12, 14, 1989)
