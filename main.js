@@ -174,7 +174,12 @@ const family = [
   new Person('mark', 'dionne', 10, 1, 1957),
   new Person('mark', 'reynolds', 8, 18, 1963),
   new Person('john', 'reynolds', 1, 13, 1937),
-  new Person('shirley', 'prater', 11, 16, 1935)
+  new Person('shirley', 'prater', 11, 16, 1935),
+  new Person('jon', 'larochelle', 7, 1, 1987),
+  new Person('paula', 'wright', 7, 29, 1985),
+  new Person('john', 'kevin', 5, 17, 1989),
+  new Person('tim', 'garcia', 12, 5, 1988),
+  new Person('charles', 'mccormick', 11, 5, 1988)
 ]
 
 let pendingBday = () => {
