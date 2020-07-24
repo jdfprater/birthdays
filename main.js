@@ -176,6 +176,8 @@ const family = [
   new Person('sandy', 'dionne', 10, 13, 1961),
   new Person('mark', 'dionne', 10, 1, 1957),
   new Person('mark', 'reynolds', 8, 18, 1963),
+  new Person('john', 'reynolds', 1,10,1999),
+  new Person('matt', 'reynolds', 2, 27, 1997),
   new Person('john', 'reynolds', 1, 13, 1937),
   new Person('shirley', 'prater', 11, 16, 1935),
   new Person('jon', 'larochelle', 7, 1, 1987),
